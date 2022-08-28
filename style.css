@@ -1,0 +1,50 @@
+
+
+
+h1{
+    text-align:center;
+}
+
+.main{
+
+    display:grid;
+    grid-template-columns:1fr 3fr;
+}
+
+.fbox{
+    display:grid;
+    align-content: start;
+    height:400px;
+    padding:20px;
+}
+
+.board{
+    width:600px;
+    height:600px;
+    padding:20px;
+    display:grid;
+
+}
+
+.boardElement{
+    border:#e5e7 1px solid;
+}
+
+.btn{
+    width:100px;
+    padding:5px;
+    background:#4144da;
+    border:none;
+    color:white;
+    border-radius: 5%;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+.label{
+    font-weight:bold;
+    text-align: center;
+    margin:0px 10px 20px 10px;
+}
+#colorBar{
+    margin:auto;
+}
